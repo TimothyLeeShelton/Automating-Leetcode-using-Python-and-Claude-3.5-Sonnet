@@ -17,12 +17,18 @@
   BeautifulSoup4
 
 **Setup**
+
 _Install required Python packages:_  
+  
   pip install selenium undetected_chromedriver anthropic beautifulsoup4
+
 _Set up your LeetCode credentials:_
+  
   Update LEETCODE_USERNAME and LEETCODE_PASSWORD in the script with your LeetCode credentials.
 _Set up Claude API:_
+  
   Obtain an API key from Anthropic
+  
   Replace API_KEY in the script with your actual API key
 
 **Usage**
