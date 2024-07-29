@@ -1,22 +1,37 @@
-**Description**
+**Description:**
+  
   This Python script automates the process of solving LeetCode problems using web automation and the Claude AI API. It navigates through LeetCode's problem set, selects problems, generates solutions using Claude AI, and submits them automatically.
 
-**Features**
+
+**Features:**
+  
   Automated login to LeetCode
+  
   Navigation through LeetCode's problem set
+  
   Problem selection based on availability and difficulty
+  
   Code generation using Claude AI
+  
   Automated code submission and error handling
+  
   Retries with improved solutions on failures
 
-**Requirements**
+
+**Requirements:**
+  
   Python 3.x
+  
   Selenium WebDriver
+  
   undetected_chromedriver
+  
   anthropic Python library
+  
   BeautifulSoup4
 
-**Setup**
+
+**Setup:**
 
 _Install required Python packages:_  
   
@@ -31,29 +46,50 @@ _Set up Claude API:_
   
   Replace API_KEY in the script with your actual API key
 
-**Usage**
+
+**Usage:**
+
 Run the script using Python:
+  
   CD to wherever you have the file stored.
+  
   python Solver.py
 
+
 **The script will automatically:**
+  
   Log in to LeetCode
+  
   Navigate through problems
+  
   Select a problem
+  
   Generate a solution using Claude's 3.5 Sonnet API AI
+  
   Submit the solution
+  
   Handle any errors and retry if necessary
+  
   Move on to the next problem
 
-**Configuration**
+
+**Configuration:**
+
 You can modify the following constants in the script to adjust its behavior:
+  
   MAX_RETRIES: Maximum number of attempts for each problem (1 = no retries, 2 = 1 retry, etc..)
+  
   LEETCODE_PROBLEMSET_URL: Starting URL for problem navigation.
+  
   CLAUDE_MODEL: The Claude AI model to use.
+  
   MAX_TOKENS: Maximum tokens for Claude API responses.
+  
   TEMPERATURE: Temperature setting for Claude API.
 
-**Notes**
+
+**Notes:**
+
 This is an example of how ‘real-language programming’ has become a modern viability. This project was built using real-language submitted to an AI, to build a code-based tool, that writes code solutions.
 
 Building a system that can solve a massive amount of problems much faster than a normal person is valuable. The ability to sit infront of a blank script, or pseudocode structure, or designed system diagram, and write code using syntax from memory.. was not how I built this.
