@@ -74,6 +74,8 @@ While the code produced by this system may not be the most reliable, readable, f
 
 There are many instances where the power of AI systems to solve problems can be more valuable than traditional hard-coding approaches. At the very least, partner programming with an AI is becoming an increasingly viable and powerful option.
 
+The "Sleep(5)" statements are horrendous, I know that, but Leetcode has some hidden rate limits it throws on suspicious accounts, this fixes that.
+
 ## Disclaimer
 
 This script is for educational purposes only. Use responsibly and in accordance with LeetCode's terms of service.
