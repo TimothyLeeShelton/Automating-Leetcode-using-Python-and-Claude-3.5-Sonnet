@@ -40,7 +40,7 @@ LEETCODEPOSTFILTER = '&topicSlugs=array&status=NOT_STARTED'  # Additional filter
 LEETCODE_PROBLEM_URL_PREFIX = "https://leetcode.com/problems/"  # Prefix for individual LeetCode problem URLs
 LEETCODE_LOGIN_URL = "https://leetcode.com/accounts/login/"  # URL for LeetCode login page
 problem_title = ''  # Placeholder for storing the current problem title
-LEETCODE_USERNAME = 'Hermesroblox'  # LeetCode username, replace with your own.
+LEETCODE_USERNAME = ''  # LeetCode username, replace with your own.
 LEETCODE_PASSWORD = ''  # Placeholder for LeetCode password (left blank for security)
 
 
